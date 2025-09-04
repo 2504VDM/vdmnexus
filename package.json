@@ -1,0 +1,40 @@
+{
+  "name": "vdmnexus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "lint": "eslint apps",
+  "format": "prettier --write .",
+  "build": "npm run build --workspace=web",
+  "start": "npm run start --workspace=web"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2504VDM/vdmnexus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2504VDM/vdmnexus/issues"
+  },
+  "homepage": "https://github.com/2504VDM/vdmnexus#readme",
+  "type": "module",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-security": "^3.0.1",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
