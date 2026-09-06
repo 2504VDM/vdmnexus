@@ -108,6 +108,13 @@ Convention going forward: treat `mergeable_state: unstable` as
 mergeable-if-not-`dirty`/`blocked`, not as equivalent to a merge
 conflict.
 
+**#192 (2026-09-05 daily review) — merged cleanly the same session**
+(~90 seconds from open to merge), the first PR opened under the
+corrected merge logic. One data point that the fix works end-to-end,
+not just in theory. The 2026-09-06 session's own PR is being opened
+and merged the same way tonight — see that session's entry below once
+it lands.
+
 ## Conventions
 
 - One session = one branch = one PR. Never two sessions on the same branch.
