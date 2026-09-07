@@ -111,9 +111,13 @@ conflict.
 **#192 (2026-09-05 daily review) — merged cleanly the same session**
 (~90 seconds from open to merge), the first PR opened under the
 corrected merge logic. One data point that the fix works end-to-end,
-not just in theory. The 2026-09-06 session's own PR is being opened
-and merged the same way tonight — see that session's entry below once
-it lands.
+not just in theory.
+
+**#193 (2026-09-06 daily review) — merged cleanly the same session**
+(~68 seconds, 20:11:29-20:12:38 UTC). Second consecutive clean night
+under the corrected merge logic. Tonight's session (2026-09-07) is
+opening and merging its own PR the same way — see next session's entry
+once it's confirmed landed.
 
 ## Conventions
 
