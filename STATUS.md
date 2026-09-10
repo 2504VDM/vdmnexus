@@ -123,9 +123,16 @@ night under the corrected merge logic.
 
 **#195 (2026-09-08 daily review) — merged cleanly the same session**
 (8 seconds, 20:12:48-20:12:56 UTC, `2da23b0`). Fourth consecutive clean
-night under the corrected merge logic. Tonight's session (2026-09-09)
-is opening and merging its own PR the same way — see next session's
-entry once it's confirmed landed.
+night under the corrected merge logic.
+
+**#196 (2026-09-09 daily review) — merged cleanly the same session**
+(9 seconds, 20:13:22-20:13:31 UTC, `8b5eba8`). Fifth consecutive clean
+night under the corrected merge logic, despite `mergeable_state:
+unstable` (the `nexus` Vercel check is still failing — reconfirmed
+fresh again by the 2026-09-10 session via `list_teams`/`list_deployments`:
+still Hobby plan, no `nexus` deployment newer than 2026-08-19T20:13 UTC).
+Tonight's session (2026-09-10) is opening and merging its own PR the
+same way — see next session's entry once it's confirmed landed.
 
 ## Conventions
 
